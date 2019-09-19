@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Bearly Escaped</title>
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#000000">
+    <meta itemprop="image" content="/image/logo.png">
+    <meta name="Description"
+        content="Developed by: Your Name, About: Something about you, Site: something about the site">
+
+    <!-- links -->
+    <link rel='icon' sizes="192x192" href="static/imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"
+        type="text/css">
+    <link rel="stylesheet" href="static/css/style.css" type="text/css">
+
+</head>
+
+<body id="top">
+
+    <!-- preloader -->
+    <div id="preloader">
+        <div id="loader">
+            <img src="static/imgs/preloader.gif" alt="Loader" lazyload="on">
+            <h3>. . . L O A D I N G . . .</h3>
+        </div>
+    </div>
+
+    <!-- header -->
+    <header>
+        <!-- navbar | subnav -->
+        <ul id="dropdown-rooms" class="dropdown-content black">
+            <li>
+                <a href="#distracting-ball-pit" title="Distracting Ball Pit">
+                    <i class="fas fa-lock fa-fw" aria-hidden="true"></i> Distracting Ball Pit
+                </a>
+            </li>
+            <li>
+                <a href="#gulag" title="Gulag - ГУЛАГ">
+                    <i class="fas fa-lock fa-fw" aria-hidden="true"></i> Gulag - ГУЛАГ
+                </a>
+            </li>
+            <li>
+                <a href="#hotel-checkout" title="Hotel Checkout">
+                    <i class="fas fa-lock fa-fw" aria-hidden="true"></i> Hotel Checkout
+                </a>
+            </li>
+            <li>
+                <a href="#leprechaun-gold" title="Leprechaun Gold">
+                    <i class="fas fa-lock fa-fw" aria-hidden="true"></i> Leprechaun Gold
+                </a>
+            </li>
+            <li>
+                <a href="#three-bears-house" title="Three Bears' House">
+                    <i class="fas fa-lock fa-fw" aria-hidden="true"></i> Three Bears' House
+                </a>
+            </li>
+            <li>
+                <a href="#vaulted" title="Vaulted">
+                    <i class="fas fa-lock fa-fw" aria-hidden="true"></i> Vaulted
+                </a>
+            </li>
+        </ul>
+        <!-- navbar | top -->
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#top" class="brand-logo left">
+                    <img src="static/imgs/logo.png" alt="Bearly Escaped" lazyload="on">
+                </a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger right">
+                    <i class="fas fa-bars fa-lg" aria-hidden="true"></i>
+                </a>
+                <ul class="right hide-on-med-and-down upper">
+                    <li>
+                        <a href="#top" title="Home Page" id="navlink-home">
+                            <i class="fas fa-home fa-fw" aria-hidden="true"></i> Home
+                        </a>
+                    </li>
+                    <li class="bullet">•</li>
+                    <li>
+                        <a href="#about" title="About Us" id="navlink-about">
+                            <i class="fas fa-info-circle fa-fw" aria-hidden="true"></i> About
+                        </a>
+                    </li>
+                    <li class="bullet">•</li>
+                    <li>
+                        <a href="#game-rooms" title="Our Game Rooms" class="dropdown-trigger" id="navlink-rooms"
+                            data-target="dropdown-rooms">
+                            <i class="fas fa-puzzle-piece fa-fw" aria-hidden="true"></i> Game Rooms
+                        </a>
+                    </li>
+                    <li class="bullet">•</li>
+                    <li>
+                        <a href="#pricing" title="How Much is it?" id="navlink-pricing">
+                            <i class="fas fa-euro-sign fa-fw" aria-hidden="true"></i> Pricing
+                        </a>
+                    </li>
+                    <li class="bullet">•</li>
+                    <li>
+                        <a href="#faqs" title="FAQs" id="navlink-faqs">
+                            <i class="fas fa-question-circle fa-fw" aria-hidden="true"></i> FAQs
+                        </a>
+                    </li>
+                    <li class="bullet">•</li>
+                    <li>
+                        <a href="#contact" title="Contact Us" id="navlink-contact">
+                            <i class="fas fa-envelope fa-fw" aria-hidden="true"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- navbar | sidenav -->
+        <ul class="sidenav grey darken-4" id="mobile-demo">
+            <a href="#top" class="center-align">
+                <li class="sidenav-header sidenav-close">
+                    <img src="static/imgs/logo.png" alt="Bearly Escaped" class="responsive-img" lazyload="on">
+                </li>
+            </a>
+            <li>
+                <div class="divider black"></div>
+            </li>
+            <li class="sidenav-close">
+                <a href="#top">
+                    <i class="fas fa-home fa-lg fa-fw" aria-hidden="true"></i>
+                    <span class="bold upper">Home</span>
+                </a>
+            </li>
+            <li>
+                <div class="divider black"></div>
+            </li>
+            <li class="sidenav-close">
+                <a href="#about">
+                    <i class="fas fa-info-circle fa-lg fa-fw" aria-hidden="true"></i>
+                    <span class="bold upper">About</span>
+                </a>
+            </li>
+            <li>
+                <div class="divider black"></div>
+            </li>
+            <li class="sidenav-close">
+                <a href="#distracting-ball-pit">
+                    <i class="fas fa-lock fa-lg fa-fw" aria-hidden="true"></i>
+                    <span class="bold upper">Distracting Ball Pit</span>
+                </a>
+            </li>
+            <li>
+                <div class="divider black"></div>
+            </li>
+            <li class="sidenav-close">
+                <a href="#gulag">
+                    <i class="fas fa-lock fa-lg fa-fw" aria-hidden="true"></i>
+                    <span class="bold upper">Gulag - ГУЛАГ</span>
+                </a>
+            </li>
+            <li>
+                <div class="divider black"></div>
+            </li>
+            <li class="sidenav-close">
+                <a href="#hotel-checkout">
+                    <i class="fas fa-lock fa-lg fa-fw" aria-hidden="true"></i>
+                    <span class="bold upper">Hotel Checkout</span>
+                </a>
+            </li>
+            <li>
+                <div class="divider black"></div>
+            </li>
+            <li class="sidenav-close">
+                <a href="#leprechaun-gold">
+                    <i class="fas fa-lock fa-lg fa-fw" aria-hidden="true"></i>
+                    <span class="bold upper">Leprechaun Gold</span>
+                </a>
+            </li>
+            <li>
+                <div class="divider black"></div>
+            </li>
+            <li class="sidenav-close">
+                <a href="#three-bears-house">
+                    <i class="fas fa-lock fa-lg fa-fw" aria-hidden="true"></i>
+                    <span class="bold upper">Three Bears' House</span>
+                </a>
+            </li>
+            <li>
+                <div class="divider black"></div>
+            </li>
+            <li class="sidenav-close">
+                <a href="#vaulted">
+                    <i class="fas fa-lock fa-lg fa-fw" aria-hidden="true"></i>
+                    <span class="bold upper">Vaulted</span>
+                </a>
+            </li>
+            <li>
+                <div class="divider black"></div>
+            </li>
+            <li class="sidenav-close">
+                <a href="#pricing">
+                    <i class="fas fa-euro-sign fa-lg fa-fw" aria-hidden="true"></i>
+                    <span class="bold upper">Pricing</span>
+                </a>
+            </li>
+            <li>
+                <div class="divider black"></div>
+            </li>
+            <li class="sidenav-close">
+                <a href="#faqs">
+                    <i class="fas fa-question-circle fa-lg fa-fw" aria-hidden="true"></i>
+                    <span class="bold upper">FAQs</span>
+                </a>
+            </li>
+            <li>
+                <div class="divider black"></div>
+            </li>
+            <li class="sidenav-close">
+                <a href="#contact">
+                    <i class="fas fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+                    <span class="bold upper">Contact</span>
+                </a>
+            </li>
+            <li>
+                <div class="divider black"></div>
+            </li>
+
+            <li class="sidenav-footer grey darken-4"></li>
+        </ul>
+    </header>
+
+    <section id="cookies-div">
+        <p class="center-align white-text">
+            We use cookies to ensure you get the best experience from our site.
+            <br>
+            <button class="btn btn-cookie-ok blue darken-4 text-shadow">OK</button>
+            <button data-target="modal-cookies" class="btn blue darken-4 text-shadow modal-trigger">Learn More</button>
+        </p>
+        <div id="modal-cookies" class="modal black white-text">
+            <div class="modal-content">
+                <h1 class="center-align"><span class="section-heading upper text-shadow">Cookie Policy</span></h1>
+                <h2 class="orange-text-be underline">HOW WE USE COOKIES</h2>
+                <img src="static/imgs/cookie-policy.png" class="responsive-img left" alt="Cookie Policy" lazyload="on">
+                <p>
+                    Like many websites, we use cookies to store and retrieve small bits of information on your
+                    computer when you visit.<br>
+                    This information is used to make the site work as you expect it to work.<br>
+                    It is not personally identifiable to you, but it can be used to give you a more personalised
+                    web experience.
+                </p>
+                <p>
+                    Some of the information stored is put there by other companies, whose software we have added
+                    to the site, and this can also impact your experience of other websites that you may visit
+                    after leaving our site.
+                </p>
+                <p>
+                    If you continue to use this site without taking action to prevent the storage of this
+                    information, you are effectively agreeing to this use.<br>
+                    If you want to learn more about the general uses of cookies, including how to stop them
+                    being stored by your computer, please visit
+                    <a href="https://cookiepedia.co.uk/all-about-cookies" target="_blank" class="bold">
+                        Cookiepedia – all about cookies</a>.
+                </p>
+                <p>
+                    Below is a list of the different types of cookies used on this site, and an explanation of what they
+                    are used for.<br>
+                    If you would like any more information, please get in touch with us directly.
+                </p>
+                <h3 class="orange-text-be bold">Strictly Necessary Cookies</h3>
+                <p>
+                    These cookies are necessary for the website to function.<br>
+                    They are usually only set in response to actions made by you which amount to a request for services,
+                    such as logging in or filling in forms.
+                </p>
+                <p>
+                    You can set your browser to block or alert you about these cookies, but some parts of the site will
+                    no longer work.<br>
+                    These cookies do not store any personally identifiable information.
+                </p>
+                <ul class="yellow-text-be">
+                    <li>PHPSESSID</li>
+                </ul>
+                <h3 class="orange-text-be bold">Performance Cookies</h3>
+                <p>
+                    These cookies allow us to count visits and traffic sources so we can measure and improve the
+                    performance of our site.<br>
+                    They help us to know which pages are the most and least popular, and to see how visitors move around
+                    the site.
+                </p>
+                <p>
+                    All information these cookies collect is aggregated, and therefore anonymous.<br>
+                    If you do not allow these cookies, we will not know when you have visited our site, and will not be
+                    able to monitor its performance.
+                </p>
+                <h3 class="orange-text-be bold">Functionality Cookies</h3>
+                <p>
+                    These cookies enable the website to provide enhanced functionality and personalisation.<br>
+                    They may be set by us, or by third party providers whose services we have added to our pages.
+                </p>
+                <p>
+                    If you do not allow these cookies, then some or all of these services may not function properly.
+                </p>
+                <h3 class="orange-text-be bold">Targeting Cookies</h3>
+                <p>
+                    These cookies may be set through our site by our advertising partners.<br>
+                    They may be used by those companies to build a profile of your interests, and show you relevant
+                    adverts on other sites.
+                </p>
+                <p>
+                    They do not store any personally identifiable information, but are based on uniquely identifying
+                    your browser and internet device.<br>
+                    If you do not allow these cookies, you will experience less targeted advertising.
+                </p>
+                <ul class="yellow-text-be">
+                    <li>APISID</li>
+                    <li>SSID</li>
+                    <li>NID</li>
+                    <li>PREF</li>
+                    <li>SID</li>
+                    <li>SAPISID</li>
+                    <li>HSID</li>
+                </ul>
+                <p>
+                    <button class="btn btn-cookie-ok red darken-4 text-shadow">CLOSE</button>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="landing-page"></section>
+
+    <section id="about">
+        <h1 class="center-align"><span class="section-heading upper text-shadow">About Us</span></h1>
+        <p>
+            <span class="orange-text-be">Bearly Escaped</span> will be Dublin’s newest, and most unique, live escape
+            game experience. Designed to provide interactive fun and excitement, our rooms are ideal for playing with
+            your friends, family, or colleagues.
+        </p>
+        <p>
+            So, what exactly are Escape Rooms, and how do they work?
+        </p>
+        <p>
+            Are you adventurous and creative?<br>
+            Do you love challenges and work well in a team?<br>
+            Perhaps you’re curious and enjoy a mystery?<br>
+            Whatever your personality, there’s something for everyone at <span class="orange-text-be">Bearly
+                Escaped</span>!
+        </p>
+        <p>
+            Locked in a strange room with your team, you must explore your surroundings to find clues and puzzles. Using
+            everyone’s skills, intellect, and creativity, think outside the box to solve the secrets of the room. The
+            clock is ticking, and you’ve only got 60 minutes to prove your might and escape in time.<br>
+            Are you up for the challenge?
+        </p>
+        <div class="divider black"></div>
+        <p>
+            <small class="bold">
+                <span class="orange-text-be">The Crystal Maze</span>, <span class="orange-text-be">Legends of the Hidden
+                    Temple</span>, <span class="orange-text-be">“Race to Escape” Game Show</span>, <span
+                    class="orange-text-be">脱出ゲームDERO!</span>, <span class="orange-text-be">“EXIT” Escape Game
+                    Show</span>, <span class="orange-text-be">Takagism online escape games</span>, <span
+                    class="orange-text-be">ParaPark Hungary</span>
+                <br>
+                <em>These are just a few of the wonderful inspirations that started it all!</em>
+            </small>
+        </p>
+    </section>
+
+    <section id="how-it-works" class="center-align white-text">
+        <h1 class="center-align"><span class="section-heading upper text-shadow">How it Works</span></h1>
+        <p>
+            Booking your experience is <span class="orange-text-be">quick and easy</span>,<br>
+            but do you have what it takes to escape in <span class="orange-text-be">60 minutes</span>?
+        </p>
+    </section>
+
+    <section id="flowchart">
+        <div class="row center-align">
+            <div class="col s12 l2">
+                <img src="static/imgs/flowchart/01-calendar.png" class="fadeUp" alt="calendar" lazyload="on">
+                <p class="orange-text-be">1. Select a date and time</p>
+            </div>
+            <div class="col s12 l2">
+                <img src="static/imgs/flowchart/02-pay.png" class="fadeUp" alt="pay" lazyload="on">
+                <p class="orange-text-be">2. Pay for your booking</p>
+            </div>
+            <div class="col s12 l2">
+                <img src="static/imgs/flowchart/03-email.png" class="fadeUp" alt="email" lazyload="on">
+                <p class="orange-text-be">3. Receive email confirmation</p>
+            </div>
+            <div class="col s12 l2">
+                <img src="static/imgs/flowchart/04-arrival.png" class="fadeUp" alt="arrival" lazyload="on">
+                <p class="orange-text-be">4. Arrive 10 minutes prior</p>
+            </div>
+            <div class="col s12 l2">
+                <img src="static/imgs/flowchart/05-enter.png" class="fadeUp" alt="enter" lazyload="on">
+                <p class="orange-text-be">5. Enter the Escape Room!</p>
+            </div>
+        </div>
+        <div class="row center-align">
+            <div class="col s12 l2">
+                <img src="static/imgs/flowchart/06-search.png" class="fadeUp" alt="search" lazyload="on">
+                <p class="orange-text-be">6. Search for hints and clues</p>
+            </div>
+            <div class="col s12 l2">
+                <img src="static/imgs/flowchart/07-solve.png" class="fadeUp" alt="solve" lazyload="on">
+                <p class="orange-text-be">7. Solve riddles and puzzles</p>
+            </div>
+            <div class="col s12 l2">
+                <img src="static/imgs/flowchart/08-time-up.png" class="fadeUp" alt="time-up" lazyload="on">
+                <p class="orange-text-be">8. Try to beat the clock</p>
+            </div>
+            <div class="col s12 l2">
+                <img src="static/imgs/flowchart/09-exit.png" class="fadeUp" alt="exit" lazyload="on">
+                <p class="orange-text-be">9. Can you escape in time?</p>
+            </div>
+            <div class="col s12 l2">
+                <img src="static/imgs/flowchart/10-tripadvisor.png" class="fadeUp" alt="tripadvisor" lazyload="on">
+                <p class="orange-text-be">10. Rate us on TripAdvisor</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="game-rooms" class="center-align white-text">
+        <h1 class="center-align"><span class="section-heading upper text-shadow">Game Rooms</span></h1>
+        <p>
+            We have <span class="orange-text-be">6 unique rooms</span> to choose from,<br>
+            each of them <span class="orange-text-be">challenging</span>, <span class="orange-text-be">engaging</span>,
+            and <span class="orange-text-be">fun</span>!
+        </p>
+    </section>
+
+    <section id="distracting-ball-pit">
+        <h1 class="center-align"><span class="section-heading upper text-shadow">Distracting Ball Pit</span></h1>
+        <div class="row center-align">
+            <div class="col s12 l6 fadeLeft">
+                <img src="static/imgs/rooms/distracting-ball-pit.png" class="responsive-img" alt="Distracting Ball Pit"
+                    lazyload="on">
+            </div>
+            <div class="col s12 l6 left-align fadeRight">
+                <p>
+                    Riddles, puzzles, and balls! Lots of balls!
+                </p>
+                <p>
+                    This room is purely designed for your inner-child.
+                </p>
+                <p>
+                    Admit it, you secretly want to play in a gigantic ball pit, right? Well, you’re in luck, because
+                    this room is just that; an enormous ball pit for adults of all ages, full of puzzles!
+                </p>
+                <p>
+                    Don’t let our balls distract you, because you’ve only got <span class="orange-text-be">60
+                        minutes</span> to escape from “Distracting Ball Pit”.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <aside class="be-divider center-align">
+        <img src="static/imgs/sections/divider.png" alt="divider" lazyload="on">
+    </aside>
+
+    <section id="gulag">
+        <h1 class="center-align"><span class="section-heading upper text-shadow">Gulag - ГУЛАГ</span></h1>
+        <div class="row center-align">
+            <div class="col s12 l6 fadeLeft">
+                <img src="static/imgs/rooms/gulag.png" class="responsive-img" alt="Gulag - ГУЛАГ" lazyload="on">
+            </div>
+            <div class="col s12 l6 left-align fadeRight">
+                <p>
+                    Attention Comrades!
+                </p>
+                <p>
+                    You’ll not only have to rely on your own skill, but also the skills of your compatriots in the
+                    opposite cell in order to obtain your freedom.
+                </p>
+                <p>
+                    Succeed, and you’ll escape permanent frozen exile.
+                </p>
+                <p>
+                    Fail, and you’ll become the latest members of the glorious regime.
+                </p>
+                <p>
+                    You’d better make it quick, because you’ve only got <span class="orange-text-be">60 minutes</span>
+                    to escape from our Soviet “Gulag”.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <aside class="be-divider center-align">
+        <img src="static/imgs/sections/divider.png" alt="divider" lazyload="on">
+    </aside>
+
+    <section id="hotel-checkout">
+        <h1 class="center-align"><span class="section-heading upper text-shadow">Hotel Checkout</span></h1>
+        <div class="row center-align">
+            <div class="col s12 l6 fadeLeft">
+                <img src="static/imgs/rooms/hotel-checkout.png" class="responsive-img" alt="Hotel Checkout"
+                    lazyload="on">
+            </div>
+            <div class="col s12 l6 left-align fadeRight">
+                <p>
+                    After a fantastic trip in Dublin, you realise that your flight home leaves in a few hours. The only
+                    problem is, you still haven’t checked out of your hotel room.
+                </p>
+                <p>
+                    You quickly call down to reception, and they’ve advised that standard check-out time is in an hour.
+                </p>
+                <p>
+                    To make things worse, you can’t remember where you’ve put the room key!
+                </p>
+                <p>
+                    Now you’ve got <span class="orange-text-be">60 minutes</span> to find the key, and proceed with your
+                    “Hotel Check-out”.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <aside class="be-divider center-align">
+        <img src="static/imgs/sections/divider.png" alt="divider" lazyload="on">
+    </aside>
+
+    <section id="leprechaun-gold">
+        <h1 class="center-align"><span class="section-heading upper text-shadow">Leprechaun Gold</span></h1>
+        <div class="row center-align">
+            <div class="col s12 l6 fadeLeft">
+                <img src="static/imgs/rooms/leprechaun-gold.png" class="responsive-img" alt="Leprechaun Gold"
+                    lazyload="on">
+            </div>
+            <div class="col s12 l6 left-align fadeRight">
+                <p>
+                    They say that a pot of leprechaun gold can be found at the end of a rainbow.
+                </p>
+                <p>
+                    You know how difficult it is to get to the end of a rainbow, so you probably don’t have any
+                    leprechaun gold.
+                </p>
+                <p>
+                    Well you’re in luck, because we’ve actually caught our very own leprechaun!
+                </p>
+                <p>
+                    He’s got a full-time job as a shoemaker, and is currently away delivering shoes in the Midlands.
+                </p>
+                <p>
+                    We’d like to invite you and your friends into our cottage to try and collect as much “Leprechaun
+                    Gold” as you possibly can before he gets back in <span class="orange-text-be">60 minutes</span> and
+                    catches you.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <aside class="be-divider center-align">
+        <img src="static/imgs/sections/divider.png" alt="divider" lazyload="on">
+    </aside>
+
+    <section id="three-bears-house">
+        <h1 class="center-align"><span class="section-heading upper text-shadow">Three Bears' House</span></h1>
+        <div class="row center-align">
+            <div class="col s12 l6 fadeLeft">
+                <img src="static/imgs/rooms/three-bears-house.png" class="responsive-img" alt="Three Bears' House"
+                    lazyload="on">
+            </div>
+            <div class="col s12 l6 left-align fadeRight">
+                <p>
+                    Goldilocks isn’t here this time, so you’ve decided to rummage through the three Bears’ house
+                    yourself.
+                </p>
+                <p>
+                    Unfortunately, they see you enter their house, and decide to lock you in!
+                </p>
+                <p>
+                    You’ve been given an hour to escape before they come back with their friends to enjoy a tasty human
+                    meal.
+                </p>
+                <p>
+                    Follow in Goldilocks’ footsteps through the “Three Bears’ House” to see if you can escape before
+                    they come back in <span class="orange-text-be">60 minutes</span>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <aside class="be-divider center-align">
+        <img src="static/imgs/sections/divider.png" alt="divider" lazyload="on">
+    </aside>
+
+    <section id="vaulted">
+        <h1 class="center-align"><span class="section-heading upper text-shadow">Vaulted</span></h1>
+        <div class="row center-align">
+            <div class="col s12 l6 fadeLeft">
+                <img src="static/imgs/rooms/vaulted.png" class="responsive-img" alt="Vaulted" lazyload="on">
+            </div>
+            <div class="col s12 l6 left-align fadeRight">
+                <p>
+                    Money is not the only thing that talks when you’re locked inside a bank vault.
+                </p>
+                <p>
+                    With air supplies low, and security tight, your team will have only <span class="orange-text-be">60
+                        minutes</span> to escape.
+                </p>
+                <p>
+                    If you fail, you’ll pay the ultimate price and become non-withdrawable!
+                </p>
+                <p>
+                    Succeed, and your team will become “Vaulted” masters!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <aside class="be-divider center-align">
+        <img src="static/imgs/sections/divider.png" alt="divider" lazyload="on">
+    </aside>
+
+    <section id="pricing">
+        <h1 class="center-align"><span class="section-heading upper text-shadow">Pricing</span></h1>
+        <div class="row center-align">
+            <div class="col s12 l2">
+                <img src="static/imgs/pricing/players-2.png" class="responsive-img fadeUp" alt="2 players"
+                    lazyload="on">
+                <h1>
+                    <small>
+                        2 players
+                        <br>
+                        <small>&euro;</small>
+                        <span class="bold">30 per person</span>
+                    </small>
+                    <br>
+                    <span class="orange-text-be"><small>&euro;</small>
+                        <span class="price-counter bold">60</span> total
+                    </span>
+                </h1>
+            </div>
+            <div class="col s12 l2">
+                <img src="static/imgs/pricing/players-3.png" class="responsive-img fadeUp" alt="3 players"
+                    lazyload="on">
+                <h1>
+                    <small>
+                        3 players
+                        <br>
+                        <small>&euro;</small>
+                        <span class="bold">25 per person</span>
+                    </small>
+                    <br>
+                    <span class="orange-text-be"><small>&euro;</small>
+                        <span class="price-counter bold">75</span> total
+                    </span>
+                </h1>
+            </div>
+            <div class="col s12 l2">
+                <img src="static/imgs/pricing/players-4.png" class="responsive-img fadeUp" alt="4 players"
+                    lazyload="on">
+                <h1>
+                    <small>
+                        4 players
+                        <br>
+                        <small>&euro;</small>
+                        <span class="bold">23 per person</span>
+                    </small>
+                    <br>
+                    <span class="orange-text-be"><small>&euro;</small>
+                        <span class="price-counter bold">92</span> total
+                    </span>
+                </h1>
+            </div>
+            <div class="col s12 l2">
+                <img src="static/imgs/pricing/players-5.png" class="responsive-img fadeUp" alt="5 players"
+                    lazyload="on">
+                <h1>
+                    <small>
+                        5 players
+                        <br>
+                        <small>&euro;</small>
+                        <span class="bold">21 per person</span>
+                    </small>
+                    <br>
+                    <span class="orange-text-be"><small>&euro;</small>
+                        <span class="price-counter bold">105</span> total
+                    </span>
+                </h1>
+            </div>
+            <div class="col s12 l2">
+                <img src="static/imgs/pricing/players-6.png" class="responsive-img fadeUp" alt="6 players"
+                    lazyload="on">
+                <h1>
+                    <small>
+                        6 players
+                        <br>
+                        <small>&euro;</small>
+                        <span class="bold">19 per person</span>
+                    </small>
+                    <br>
+                    <span class="orange-text-be"><small>&euro;</small>
+                        <span class="price-counter bold">114</span> total
+                    </span>
+                </h1>
+            </div>
+        </div>
+    </section>
+
+    <aside class="be-divider center-align">
+        <img src="static/imgs/sections/divider.png" alt="divider" lazyload="on">
+    </aside>
+
+    <section id="faqs">
+        <h1 class="center-align"><span class="section-heading text-shadow">FAQs</span></h1>
+        <h2>– the <span class="orange-text-be">GAME</span> –</h2>
+        <ul class="collapsible popout bold">
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> WHY SHOULD WE DO AN ESCAPE ROOM?
+                </div>
+                <div class="collapsible-body">
+                    LIVE ESCAPE GAMES ARE EXTREMELY FUN! THEY’LL CHALLENGE YOUR MIND, MAKE YOU THINK OUTSIDE THE BOX,
+                    DEVELOP TEAMWORK, AND GET YOUR BLOOD FLOWING! SOME EVEN CONSIDER THEM QUITE ADDICTIVE!
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> IS IT SCARY?
+                </div>
+                <div class="collapsible-body">
+                    ESCAPE ROOMS ARE ONLY SCARY IF YOU SUFFER FROM CLEITHROPHOBIA (FEAR OF BEING LOCKED IN AN ENCLOSED
+                    SPACE), OR A SEVERE CASE OF CLAUSTROPHOBIA (FEAR OF CONFINED PLACES).<br>
+                    NOTHING WILL POP-OUT TO SCARE YOU, SO IF YOU’RE EASILY FRIGHTENED, YOU HAVE NOTHING TO WORRY ABOUT.
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> ARE WE BEING RECORDED?
+                </div>
+                <div class="collapsible-body">
+                    WE WILL HAVE CCTV IN ALL OF OUR ROOMS TO MONITOR THE GAMES.<br>
+                    THIS IS FOR YOUR AND OUR PROTECTION, AND TO ENSURE BEST GAME EXPERIENCE POSSIBLE.
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> WHAT HAPPENS IF SOMEONE IN OUR GROUP WANTS TO LEAVE EARLY?
+                </div>
+                <div class="collapsible-body">
+                    THIS IS EXTREMELY RARE, BUT IF IT DOES OCCUR, THE OTHER PLAYERS MAY CHOOSE TO CONTINUE PLAYING OR
+                    NOT.<br>
+                    PLAYERS THAT LEAVE EARLY MAY NOT BE ALLOWED BACK IN ONCE THEY’VE LEFT.
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> WHAT IF I NEED TO USE THE TOILET THOUGH?
+                </div>
+                <div class="collapsible-body">
+                    YOU WILL BE GIVEN A FINAL OPPORTUNITY TO USE THE TOILET FACILITIES PRIOR TO STARTING YOUR ESCAPE
+                    EXPERIENCE.
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> ARE HINTS GIVEN IF WE GET STUCK?
+                </div>
+                <div class="collapsible-body">
+                    YES, IF YOU NEED A HINT, YOU MAY ASK FOR THEM.<br>
+                    WE MIGHT ALSO ASSIST IF WE NOTICE YOU’RE STRUGGLING TOO MUCH.
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> WHAT HAPPENS IF WE DAMAGE SOMETHING?
+                </div>
+                <div class="collapsible-body">
+                    PLEASE USE BEST JUDGEMENT.<br>
+                    IF IT’S NOT WORKING, YOU’RE PROBABLY DOING SOMETHING WRONG.<br>
+                    NOTHING NEEDS BRUTE FORCE.<br>
+                    SHOULD YOU HAPPEN TO BREAK ANYTHING, YOU MAY BE REQUIRED TO PAY FOR THE DAMAGES.<br>
+                    ADDITIONALLY, THEFT OF ANY OBJECTS WILL BE IMMEDIATELY REPORTED TO THE GARDA.
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> WHAT HAPPENS IF TIME RUNS OUT BEFORE WE SOLVE ALL PUZZLES?
+                </div>
+                <div class="collapsible-body">
+                    UNFORTUNATELY, THE GAME ENDS, AND YOU’VE FAILED TO ESCAPE IN TIME.<br>
+                    REMEMBER: IT’S NOT ABOUT HOW FAST YOU CAN ESCAPE, IT’S ABOUT HOW MUCH FUN YOU HAVE IN THE PROCESS!
+                </div>
+            </li>
+        </ul>
+        <br>
+        <h2>– the <span class="orange-text-be">BOOKING</span> –</h2>
+        <ul class="collapsible popout bold">
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> WE BOOKED FOR 4 PEOPLE, BUT ANOTHER FRIEND WANTS TO JOIN US
+                    NOW.
+                </div>
+                <div class="collapsible-body">
+                    NO PROBLEM!<br>
+                    ANY ADDITIONAL PLAYERS* WHO AREN’T ALREADY PAID FOR, CAN PAY €25 BY CASH OR CARD UPON CHECK-IN.<br>
+                    <small class="grey-text lighten-2">* not to exceed the maximum limit of players per room</small>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> WE BOOKED FOR 6 PEOPLE, BUT SOMEBODY CAN'T MAKE IT ANYMORE.
+                </div>
+                <div class="collapsible-body">
+                    UNFORTUNATELY, THERE IS A “NO REFUNDS” POLICY.<br>
+                    WE WOULD SUGGEST FINDING AN ALTERNATE PLAYER TO FILL THEIR SPOT, IF POSSIBLE.
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> CAN I MAKE A BOOKING OVER THE PHONE?
+                </div>
+                <div class="collapsible-body">
+                    IT’S BEST TO BOOK ONLINE, BUT IF YOU’RE HAVING DIFFICULTIES, PLEASE CALL US.<br>
+                    WE WILL CHECK IF A BOOKING WENT THROUGH OUR SYSTEM.<br>
+                    OTHERWISE, WE CAN ASSIST WITH A PHONE RESERVATION.
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> OUR BUS / TRAIN / TAXI / FLIGHT IS RUNNING LATE, AND WE MIGHT
+                    NOT MAKE IT ON TIME.
+                </div>
+                <div class="collapsible-body">
+                    DUE TO THE NATURE OF LIVE ESCAPE GAME EXPERIENCES, FLEXIBILITY ISN’T EASY.<br>
+                    YOUR GROUP SHOULD ARRIVE 10-15 MINUTES PRIOR TO YOUR BOOKED TIME (FOR YOUR BRIEFING).<br>
+                    IF YOU ARRIVE LATE AND WE HAVE GUESTS IMMEDIATELY AFTER YOUR SESSION,<br>
+                    YOU WILL UNFORTUNATELY NOT HAVE SUFFICIENT TIME TO COMPLETE THE ROOM.
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> WE HAVE A BOOKING, BUT CAN NO LONGER VISIT ON THAT SPECIFIC
+                    DATE / TIME ANYMORE.
+                </div>
+                <div class="collapsible-body">
+                    PLEASE CONTACT US IN ADVANCED TO SEE IF RESCHEDULING IS POSSIBLE.<br>
+                    WE’LL MAKE EVERY ATTEMPT TO FIND AN ALTERNATIVE SOLUTION THAT BEST FITS YOUR SCHEDULE*.<br>
+                    UNFORTUNATELY, WE HAVE A “NO REFUNDS” POLICY FOR ALL CANCELLED AND NO-SHOW RESERVATIONS.<br>
+                    <small class="grey-text lighten-2">* Please note, this may not be guaranteed.</small>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> CAN WE JUST SHOW UP WITHOUT A BOOKING?
+                </div>
+                <div class="collapsible-body">
+                    IF YOU ARRIVE WITHOUT A PRE-MADE RESERVATION, AND WE HAVE THE ABILITY TO ACCOMMODATE YOUR GROUP,
+                    WE WILL CERTAINLY ALLOW YOUR TEAM TO PLAY!<br>
+                    HOWEVER, ROOMS FILL UP FAST, SO WE’D HIGHLY RECOMMEND PLANNING AHEAD TO AVOID DISAPPOINTMENT.
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> CAN WE BRING OUR CHILDREN?
+                </div>
+                <div class="collapsible-body">
+                    YES, CHILDREN OVER THE AGE OF 12 ARE PERMITTED TO PLAY, BUT ADULT SUPERVISION IS REQUIRED AT ALL
+                    TIMES.<br>
+                    ALL OF OUR ROOMS ARE DESIGNED FOR AGES 12+ TO HAVE THE BEST POSSIBLE EXPERIENCE.
+                </div>
+            </li>
+        </ul>
+        <br>
+        <h2>– <span class="orange-text-be">MISCELLANEOUS</span> –</h2>
+        <ul class="collapsible popout bold">
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> WE WILL HAVE OUR LUGGAGE / SHOPPING WITH US, IS THAT OKAY?
+                </div>
+                <div class="collapsible-body">
+                    ABSOLUTELY!<br>
+                    WE WILL HAVE LOCKERS ON-SITE FOR YOU TO SECURE YOUR PERSONAL BELONGINGS WHILE PLAYING.
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> DO YOU HAVE SPECIAL PRICES FOR CORPORATE EVENTS AND PRIVATE
+                    FUNCTIONS?
+                </div>
+                <div class="collapsible-body">
+                    YES!<br>
+                    PLEASE CONTACT US FOR FURTHER DETAILS.
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header text-shadow">
+                    <i class="far fa-question-circle"></i> ARE GIFT CERTIFICATES AVAILABLE FOR PURCHASE?
+                </div>
+                <div class="collapsible-body">
+                    YES!<br>
+                    PLEASE CONTACT US FOR FURTHER DETAILS.
+                </div>
+            </li>
+            <li>
+        </ul>
+    </section>
+
+    <aside id="be-dublin" class="center-align">
+        <img src="static/imgs/sections/divider-footer.png" alt="divider" lazyload="on">
+    </aside>
+
+    <section id="contact">
+        <h1 class="center-align"><span class="section-heading upper text-shadow">Contact Us</span></h1>
+        <div class="trans-bg center-align white-text bold text-shadow">
+            <p>
+                <span class="orange-text-be"><i class="fas fa-calendar-alt" aria-hidden="true"></i> Monday to
+                    Sunday</span>
+                <br>
+                <small>10:00 - 22:00</small>
+            </p>
+            <p>
+                <span class="orange-text-be">
+                    <a href="https://www.google.ie/maps/dir/current+location/dublin+ireland" target="_blank">
+                        <img src="static/imgs/map-marker.png" alt="map marker" lazyload="on">
+                    </a>
+                    Address :</span>
+                <br>
+                <small>City Centre<br>Dublin, Ireland</small>
+            </p>
+            <p>
+                <span class="orange-text-be"><i class="fas fa-phone" aria-hidden="true"></i> Phone :</span>
+                <br>
+                <small>086 407-3377</small>
+            </p>
+            <p>
+                <span class="orange-text-be"><i class="fas fa-envelope" aria-hidden="true"></i> Email :</span>
+                <br>
+                <small>
+                    <a href="mailto:info@bearlyescaped.com?subject=Bearly%20Escaped%20-%20Website%20Enquiry"
+                        target="_blank" class="white-text">
+                        info@bearlyescaped.com
+                        </aside>
+                </small>
+            </p>
+            <p class="center-align">
+                <i class="fas fa-puzzle-piece contact-icon-lg" aria-hidden="true"></i>
+                <i class="fas fa-key contact-icon-lg" aria-hidden="true"></i>
+                <i class="fas fa-unlock contact-icon-lg" aria-hidden="true"></i>
+            </p>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="center-align bold black white-text">
+        <a href="#top" class="toTop center-align"><i class="fas fa-angle-double-up" aria-hidden="true"></i></a>
+        <p>
+            WE <i class="fas fa-heart orange-text-be" aria-hidden="true"></i> ESCAPE ROOMS!<br>
+            <small>&copy; Copyright 2016-<span id="year"></span> <a href="#top">BEARLY ESCAPED</a></small>
+        </p>
+    </footer>
+
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="static/js/script.js"></script>
+
+</body>
+
+</html>
